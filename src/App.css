@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+}
+
+body{
+  background-color: white;
+
+}
+
+/* ------------ Navbar --------------- */
+.navbar {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #fffefb;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+  display: flex;
+  box-shadow: 0 0px 4px rgb(122, 122, 122);
+}
+
+.navbar .brand-text{
+  text-decoration: none;
+  color: black;
+  float: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.brand-container{
+  display: flex;
+}
+
+.bug-logo{
+  margin-right: 15px;
+  transform: rotate(-45deg);
+}
+
+.menu a{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin: 0 2rem;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  transition: all ease-in 0.2s;
+  border-bottom: solid 3px transparent;
+  font-size: 1.2rem;
+  border-radius: 3.5px;
+}
+
+.menu a:hover{
+  color: #d51c1c;
+  border-color:#d51c1c;
+  
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+.visible {
+  animation-name: make-visible;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes make-visible{
+  from{
+    max-height: 0;
+  }
+  to {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 943px){
+  .menu {
+    overflow: hidden;
+    max-height: 0;
+    flex-direction: column;
+    width: 100%;
+    transition: max-height ease-in 0.6s !important;
+  }
+
+  .menu a{
+    margin: 4px 0;
+  }
+
+  .navbar .brand-text{
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 4px;
+  }
+
+  .collapseButton{
+    display: flex !important;
+  }
+
+  .brand-container{
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+}
+
+.collapseButton {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.collapseButton span {
+  height: 2px;
+  width: 25px;
+  background:#d51c1c;
+  margin-bottom: 4px;
+  border-radius: 5px;
+
+}
+
+/* ------------------------ */
