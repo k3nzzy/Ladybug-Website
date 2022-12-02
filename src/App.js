@@ -6,9 +6,12 @@ import Catch from "./pages/Catch";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/*" element={<Catch/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
