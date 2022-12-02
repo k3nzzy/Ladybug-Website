@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Bug } from '@icon-park/react';
+import './Styles.css';
 
 
 const Navbar = () => {
