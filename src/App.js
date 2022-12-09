@@ -1,7 +1,8 @@
-import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Catch from "./pages/Catch";
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/*" element={<Catch/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
