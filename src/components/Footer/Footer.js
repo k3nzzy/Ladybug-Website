@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer>
       <p>Ladybug Development Club</p>
-      <Link to="/contact-us">Contact Us</Link>
     </footer>
   );
 }
