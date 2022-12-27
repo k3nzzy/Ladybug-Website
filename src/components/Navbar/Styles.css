@@ -9,8 +9,12 @@ body{
 
 }
 
+/* Made Navbar 'sticky' to the top, I think width need to be fixed because of this */
 /* ------------ Navbar --------------- */
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: #fffefb;
