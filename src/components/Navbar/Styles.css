@@ -9,22 +9,24 @@ body{
 
 }
 
-/* Made Navbar 'sticky' to the top, I think width need to be fixed because of this */
 /* ------------ Navbar --------------- */
 .navbar {
   position: fixed;
   top: 0;
   width: calc(100vw - 64px);
+  z-index: 1;
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: #fffefb;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  color: black;
-  /* font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif; */
+  color: #161313;
   display: flex;
-  box-shadow: 0 0px 4px rgb(122, 122, 122);
+  border: 1px solid;
+  border-color: #161313;
+  /* font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif; */
+  /* box-shadow: 0 0px 4px rgb(122, 122, 122); */
 }
 
 .navbar .brand-text{

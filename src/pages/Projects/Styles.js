@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const TitlePage = styled.div`
     height: 100vh;
     width: 100vw;
-    background-color: #F5F5F5;
+    background-color: #fffefb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,7 @@ export const LineContainer = styled.div`
 export const OnGoingProjectPage = styled.div`
     width: 100vw;
     height: 100vh;
-    background-color: #F5F5F5;
+    background-color: #fffefb;
     display: flex;
     flex-direction: column;
     justify-content: center;
