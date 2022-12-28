@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Bug } from '@icon-park/react';
 import './Styles.css';
+import ladybug from "../../images/ladybugImg.png";
 
 
 const Navbar = () => {
@@ -12,7 +12,8 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className='brand-container'><Bug className='bug-logo' size={"2em"} fill={"#d51c1c"} /><a className='brand-text' href='/'>Ladybug Development Club</a></div>
+      <div className='brand-container'><img src={ladybug} alt="ladybug" height="35" width="45"></img><a className='brand-text' href='/'>Ladybug Development Club</a></div>
+      
       <div onClick={toggleCollapse} className='collapseButton'>
         <span />
         <span />
