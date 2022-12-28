@@ -21,10 +21,10 @@ const Navbar = () => {
       </div>
 
       <div className={`menu${isCollapsed ? " visible" : ""}` }>
-        <a href='/'>Home</a>
         <a href='/'>About</a>
         <a href='/Projects'>Projects</a>
-        <a href='/'>FAQ</a>
+        <a href='/'>Leadership</a>
+        <a href='/'>Contatcts</a>
       </div>
       
     </div>
