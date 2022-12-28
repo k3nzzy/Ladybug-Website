@@ -14,7 +14,7 @@ body{
 .navbar {
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: calc(100vw - 64px);
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: #fffefb;
@@ -22,7 +22,7 @@ body{
   align-items: center;
   flex-wrap: wrap;
   color: black;
-  font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+  /* font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif; */
   display: flex;
   box-shadow: 0 0px 4px rgb(122, 122, 122);
 }
@@ -33,6 +33,9 @@ body{
   float: left;
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: 'Limelight', cursive;
+  padding-top: 2px;
+  padding-left: 9px;
 }
 
 .brand-container{
@@ -55,12 +58,12 @@ body{
   border-bottom: solid 3px transparent;
   font-size: 1.2rem;
   border-radius: 3.5px;
+  font-family: 'Roboto Slab', serif;
 }
 
 .menu a:hover{
   color: #d51c1c;
   border-color:#d51c1c;
-  
 }
 
 .menu {
@@ -68,8 +71,6 @@ body{
   justify-content: space-between;
   align-items: center;
   position: relative;
-  
-  
 }
 
 .visible {
@@ -83,7 +84,7 @@ body{
     max-height: 0;
   }
   to {
-    max-height: 300px;
+    max-height: 325px;
   }
 }
 
