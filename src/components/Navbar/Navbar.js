@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Styles.css';
 import ladybug from "../../images/ladybugImg.png";
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -8,6 +9,11 @@ const Navbar = () => {
 
   const toggleCollapse = () => {
     setIsCollapsed(!isCollapsed);
+  }
+
+  const navLinkActiveStyle = {
+    color: "#d51c1c",
+    borderColor: "#d51c1c"
   }
 
   return (
@@ -21,10 +27,10 @@ const Navbar = () => {
       </div>
 
       <div className={`menu${isCollapsed ? " visible" : ""}` }>
-        <a href='/'>About</a>
-        <a href='/Projects'>Projects</a>
-        <a href='/'>Leadership</a>
-        <a href='/'>Contatcts</a>
+        <NavLink to='/' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Home</NavLink>
+        <NavLink to='/Leadership' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Leadership</NavLink>
+        <NavLink to='/Projects' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Projects</NavLink>
+        <NavLink to='/Contacts' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Contacts</NavLink>
       </div>
       
     </div>
