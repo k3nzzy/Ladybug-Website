@@ -11,8 +11,10 @@ function App() {
   return (
     <div class="App">
       <Layout>
-        <Navbar />
+        
+          
           <BrowserRouter>
+            <Navbar />
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/*" element={<Catch/>} />
