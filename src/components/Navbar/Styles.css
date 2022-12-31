@@ -90,7 +90,7 @@ body{
   }
 }
 
-@media (max-width: 943px){
+@media (max-width: 1034px){
   .menu {
     overflow: hidden;
     max-height: 0;
