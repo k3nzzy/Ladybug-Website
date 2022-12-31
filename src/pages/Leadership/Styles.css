@@ -1,0 +1,97 @@
+
+/* .leadershipContainer{
+    background-color: red;
+} */
+
+.leadershipHeadingDiv{
+    /* background-color: yellow; */
+    margin-top: 160px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    
+}
+
+.leadershipHeadingDiv h3 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 90px;
+    font-family: 'Limelight', cursive;
+    height: max-content;
+    font-style: normal;
+    line-height: 110px;
+    color: #161313;
+}
+
+.leadershipHeadingDiv p {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #161313;
+}
+
+.cardsDiv{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    margin-bottom: 120px;
+    margin-right: 8%;
+    margin-left: 10%;
+    min-height: 700px;
+}
+
+.personCard {
+    /* background-color: blue; */
+    display: flex;
+    width: 450px;
+    height: 200px;
+}
+
+.personImgContainer{
+    height: 198px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.personInfoContainer{
+    height: 198px;
+    width: 50%;
+    /* background-color: yellow; */
+    margin-left: 30px;
+    
+}
+
+.personCard h1{
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #161313;
+    font-weight: 700;
+}
+
+.personCard p {
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    color: #747474;
+    font-size: 20px;
+}
+
+.cardSocialContainer {
+    margin-top: 40%;
+}
+
+.cardSocialImg{
+    margin-right: 10px;
+}
+
