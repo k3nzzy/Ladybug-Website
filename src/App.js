@@ -4,7 +4,6 @@ import Home from "./pages/Home/Home";
 import Catch from "./pages/Catch/Catch";
 import Projects from "./pages/Projects/Projects";
 import Layout from "./components/Layout/Layout";
-import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Leadership from "./pages/Leadership/Leadership";
 import Contacts from "./pages/Contacts/Contacts";
@@ -22,8 +21,7 @@ function App() {
               <Route path="/Leadership" element={<Leadership />} />
               <Route path="/contacts" element={<Contacts />} />
             </Routes>
-          </BrowserRouter>
-        <Footer />
+          </BrowserRouter> 
       </Layout>
     </div>
   );
