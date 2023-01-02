@@ -7,6 +7,7 @@ import Layout from "./components/Layout/Layout";
 import Navbar from "./components/Navbar/Navbar";
 import Leadership from "./pages/Leadership/Leadership";
 import Contacts from "./pages/Contacts/Contacts";
+import About from "./pages/About/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/Projects" element={<Projects/>} />
               <Route path="/Leadership" element={<Leadership />} />
               <Route path="/contacts" element={<Contacts />} />
+              <Route path="/about" element={<about/>} />
             </Routes>
           </BrowserRouter> 
       </Layout>

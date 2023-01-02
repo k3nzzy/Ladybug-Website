@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
 
       <div className={`menu${isCollapsed ? " visible" : ""}` }>
-        <NavLink to='/About' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>About</NavLink>
+        <NavLink to='/About' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>About Us</NavLink>
         <NavLink to='/Leadership' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Leadership</NavLink>
         <NavLink to='/Projects' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Projects</NavLink>
         <NavLink to='/Contacts' style={({ isActive }) => isActive ? navLinkActiveStyle : undefined}>Contacts</NavLink>
