@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import holderimg from "../../images/daisies-ge69e6d609_1920.jpg";
 
 export const TitlePage = styled.div`
     height: 100vh;
@@ -89,8 +90,10 @@ export const ProjectTab = styled.div`
     font-weight: 400;
     font-size: 20px;
     line-height: 300px;
+    color: #fffefb;
     border-radius: 10px;
-    background-color: white;
+    background-image: url(${holderimg});
+    background-color: rgba(63, 63, 63, 0.4);
 `;
 
 export const ContactBtn = styled.button`
@@ -122,11 +125,11 @@ export const TitleContainer = styled.div`
 
 export const IndexContainer = styled.div`
     width: 50px;
-    height: 150px;
+    height: 300px;
     margin: 70px 20px 0px 160px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 `;
 
 export const IndexBtn = styled.button`

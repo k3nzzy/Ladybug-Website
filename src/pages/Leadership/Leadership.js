@@ -8,6 +8,7 @@ import VicePresident from "../../images/vicepresident.png";
 import Treasurer from "../../images/treasurer.png";
 import EventPlanner from "../../images/eventplanner.png";
 import TechnicalOfficer from "../../images/technicalofficer.png";
+import Footer from '../../components/Dark Footer/Footer';
 
 const PersonCard = ({ name, role, twitter, linkedin, instagram, image }) => {
   return (
@@ -44,8 +45,8 @@ const Leadership = () => {
         <PersonCard name="Saif Black" role="Event Planner" image={EventPlanner} twitter="[link]" linkedin="[link]" instagram="[link]" />
         <PersonCard name="Greta Baldwin" role="Technical Officer" image={TechnicalOfficer} twitter="[link]" linkedin="[link]" instagram="[link]" />
       </div>
+      <Footer />
     </div>
-    
   )
 }
 
