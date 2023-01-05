@@ -53,3 +53,14 @@ export const LineContainer = styled.div`
     align-self: center;
     margin: 200px 0px 0px 0px;
 `;
+
+export const ProjectPage = styled.div`
+    height: 100vh;
+    width: 100vw;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+`;
