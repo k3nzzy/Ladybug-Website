@@ -93,7 +93,7 @@ export const SectionTitle = styled.p`
     font-weight: 400;
     font-size: 40px;
     line-height: 49px;
-    margin-left: 10%;
+    margin-left: 15%;
 `;
 
 export const SectionSubTitle = styled.p`
@@ -102,7 +102,6 @@ export const SectionSubTitle = styled.p`
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    margin-left: 10%;
     color: #161313
 `;
 
@@ -113,7 +112,19 @@ export const SectionContent = styled.p`
     font-size: 18px;
     line-height: 21px;
     width: 454px;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    height: 84px;   
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: #161313
+`;
+
+export const SubSection = styled.div`
+    height: 50vh;
+    width: 30vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 `;

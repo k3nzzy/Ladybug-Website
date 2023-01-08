@@ -1,6 +1,7 @@
 import MainLayout from "../../components/Main Layout/Main Layout";
 import { AboutPage, Title, MajorText, MinorText, LineContainer, ProjectPage, 
-    ProjectLeft, ProjectRight, SectionTitle, SectionSubTitle, SectionContent} from "./Styles";
+    ProjectLeft, ProjectRight, SectionTitle, SectionSubTitle, SectionContent,
+    SubSection} from "./Styles";
 import Line from "../../images/Line.svg"
 
 export default function About() {
@@ -24,6 +25,7 @@ export default function About() {
                     <SectionContent>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
                         Velit officia consequat duis enim velit mollit. 
                         Exercitation veniam consequat sunt nostrud amet.</SectionContent>
+                    <SubSection></SubSection>
                 </ProjectLeft>
                 <ProjectRight>
 
