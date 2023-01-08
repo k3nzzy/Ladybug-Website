@@ -79,7 +79,6 @@ export const ProjectLeft = styled.div`
 export const ProjectRight = styled.div`
     height: 90vh;
     width: 40vw;
-    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -111,20 +110,48 @@ export const SectionContent = styled.p`
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    width: 454px;
-    height: 84px;   
+    width: 30vw; 
     margin-top: 3%;
     margin-bottom: 3%;
     color: #161313
 `;
 
-export const SubSection = styled.div`
-    height: 50vh;
-    width: 30vw;
-    background-color: black;
+export const HalfSubSection = styled.div`
+    height: 15vh;
+    width: 25vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: start;
     align-items: flex-start;
     flex-wrap: wrap;
+`;
+
+export const SubIdea = styled.div`
+    height: 20vh;
+    width: 12.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+`;
+
+export const SubIdeaTitle = styled.p`
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 1vw;
+    color: #161313;
+`;
+
+export const SubIdeaText = styled.p`
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 13px;
+    color: #161313;
+
 `;
