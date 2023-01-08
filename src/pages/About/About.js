@@ -5,7 +5,8 @@ import { AboutPage, Title, MajorText, MinorText, LineContainer, ProjectPage,
 import Line from "../../images/Line.svg"
 import LightBulb from "../../images/LightBulb.svg"
 import Bubble from "../../images/bubble.svg"
-
+import Tag from "../../images/tag.svg"
+import Star from "../../images/star.svg"
 
 export default function About() {
     return (
@@ -36,20 +37,20 @@ export default function About() {
                         </SubIdea>
                         <SubIdea>
                             <img src={Bubble} alt="bubble" />
-                            <SubIdeaTitle>Brainstorming</SubIdeaTitle>
+                            <SubIdeaTitle>Planning</SubIdeaTitle>
                             <SubIdeaText>Make a plan on how to<br/>bring brilliant ideas to life</SubIdeaText>
                         </SubIdea>
                     </HalfSubSection>
                     <HalfSubSection>
-                    <SubIdea>
-                            <img src={LightBulb} alt="lightbulb" />
-                            <SubIdeaTitle>Brainstorming</SubIdeaTitle>
-                            <SubIdeaText>Bring up all ideas<br/>No limitation at all</SubIdeaText>
+                        <SubIdea>
+                            <img src={Tag} alt="tag" />
+                            <SubIdeaTitle>Implementation</SubIdeaTitle>
+                            <SubIdeaText>Distribute the work,<br/>tackle the work with everyone</SubIdeaText>
                         </SubIdea>
                         <SubIdea>
-                            <img src={Bubble} alt="bubble" />
-                            <SubIdeaTitle>Brainstorming</SubIdeaTitle>
-                            <SubIdeaText>Make a plan on how to<br/>bring brilliant ideas to life</SubIdeaText>
+                            <img src={Star} alt="star" />
+                            <SubIdeaTitle>Release</SubIdeaTitle>
+                            <SubIdeaText>Surprise the world with<br/>your creation</SubIdeaText>
                         </SubIdea>
                     </HalfSubSection>
                 </ProjectLeft>

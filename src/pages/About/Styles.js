@@ -127,7 +127,7 @@ export const HalfSubSection = styled.div`
 `;
 
 export const SubIdea = styled.div`
-    height: 20vh;
+    height: 15vh;
     width: 12.5vw;
     display: flex;
     flex-direction: column;
