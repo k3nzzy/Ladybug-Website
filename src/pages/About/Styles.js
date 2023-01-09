@@ -133,7 +133,7 @@ export const SubIdea = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 `;
 
 export const SubIdeaTitle = styled.p`
@@ -153,5 +153,45 @@ export const SubIdeaText = styled.p`
     font-size: 10px;
     line-height: 13px;
     color: #161313;
+`;
 
+export const ImageContainer = styled.p`
+    background: $ComputerScreen;
+    height: 30vh;
+    width: 30vw;
+`;
+
+export const JoinPage = styled.div`
+    height: 90vh;
+    width: 100vw;
+    background-color: #F9F7F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+`;
+
+export const HalfPage = styled.div`
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+`;
+
+export const ButtonFilled = styled.div`
+    height: 6vh;
+    width: 12vw;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    background: #383838;
+    border-radius: 10px;
+    color: #FFFEFB;
+    text-align: center;
 `;

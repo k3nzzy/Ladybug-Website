@@ -1,14 +1,18 @@
 import MainLayout from "../../components/Main Layout/Main Layout";
 import { AboutPage, Title, MajorText, MinorText, LineContainer, ProjectPage, 
     ProjectLeft, ProjectRight, SectionTitle, SectionSubTitle, SectionContent,
-    HalfSubSection, SubIdea, SubIdeaTitle, SubIdeaText} from "./Styles";
-import Line from "../../images/Line.svg"
-import LightBulb from "../../images/LightBulb.svg"
-import Bubble from "../../images/bubble.svg"
-import Tag from "../../images/tag.svg"
-import Star from "../../images/star.svg"
+    HalfSubSection, SubIdea, SubIdeaTitle, SubIdeaText, ImageContainer, JoinPage,
+    HalfPage, ButtonFilled} from "./Styles";
+import Line from "../../images/Line.svg";
+import LightBulb from "../../images/LightBulb.svg";
+import Bubble from "../../images/bubble.svg";
+import Tag from "../../images/tag.svg";
+import Star from "../../images/star.svg";
+import ComputerScreen from "../../images/ComputerScreen.svg"
+import Footer from "../../components/Dark Footer/Footer";
 
 export default function About() {
+    //project page requires major overhaul/rework
     return (
         <MainLayout>
             <AboutPage>
@@ -55,9 +59,28 @@ export default function About() {
                     </HalfSubSection>
                 </ProjectLeft>
                 <ProjectRight>
-
+                    <ImageContainer>
+                        <img src={ComputerScreen} alt="computer screen"/>
+                    </ImageContainer>
                 </ProjectRight>
             </ProjectPage>
+            <JoinPage>
+                <HalfPage>
+
+                </HalfPage>
+                <HalfPage>
+                    <SectionTitle>How to Join the Club</SectionTitle>
+                    <SectionSubTitle>Led by women, open to everyone</SectionSubTitle>
+                    <SectionContent>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                        Velit officia consequat duis enim velit mollit. 
+                        Exercitation veniam consequat sunt nostrud amet.</SectionContent>
+                        <ButtonFilled>Join the mailing list</ButtonFilled>
+                </HalfPage>
+                
+            </JoinPage>
+            <Footer/>
         </MainLayout>
     );
 };
