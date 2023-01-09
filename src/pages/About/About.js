@@ -2,7 +2,8 @@ import MainLayout from "../../components/Main Layout/Main Layout";
 import { AboutPage, Title, MajorText, MinorText, LineContainer, ProjectPage, 
     ProjectLeft, ProjectRight, SectionTitle, SectionSubTitle, SectionContent,
     HalfSubSection, SubIdea, SubIdeaTitle, SubIdeaText, ImageContainer, JoinPage,
-    HalfPage, ButtonFilled} from "./Styles";
+    HalfPage, ButtonFilled, SectionPage, SectionTitle2, SectionContent2, ButtonClear,
+    ButtonContainer} from "./Styles";
 import Line from "../../images/Line.svg";
 import LightBulb from "../../images/LightBulb.svg";
 import Bubble from "../../images/bubble.svg";
@@ -78,8 +79,29 @@ export default function About() {
                         Exercitation veniam consequat sunt nostrud amet.</SectionContent>
                         <ButtonFilled>Join the mailing list</ButtonFilled>
                 </HalfPage>
-                
             </JoinPage>
+            <SectionPage>
+                <SectionTitle2>Support Our Club!</SectionTitle2>
+                <SectionSubTitle>We are still seeking donations</SectionSubTitle>
+                <SectionContent2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Pretium fusce id velit ut tortor pretium viverra suspendisse. 
+                    Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. 
+                    Ultricies leo integer malesuada nunc. Dapibus ultrices in iaculis nunc.
+                    Mauris pharetra et ultrices neque ornare aenean euismod elementum. 
+                    Non odio euismod lacinia at quis risus. Sit amet aliquam id diam maecenas. 
+                    Elementum pulvinar etiam non quam lacus. 
+                    Nulla porttitor massa id neque aliquam vestibulum morbi.<br/><br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Aliquam sem et tortor consequat id. 
+                    Mattis aliquam faucibus purus in massa tempor nec feugiat nisl. 
+                    Tellus orci ac auctor augue. Mauris ultrices eros in cursus turpis massa.</SectionContent2>
+                <ButtonContainer>
+                    <ButtonClear>Contact President</ButtonClear>
+                    <ButtonClear>Contact Treasurer</ButtonClear>
+                </ButtonContainer>
+            </SectionPage>
             <Footer/>
         </MainLayout>
     );
