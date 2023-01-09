@@ -155,7 +155,7 @@ export const SubIdeaText = styled.p`
     color: #161313;
 `;
 
-export const ImageContainer = styled.p`
+export const ImageContainer = styled.div`
     background: $ComputerScreen;
     height: 30vh;
     width: 30vw;
@@ -182,7 +182,7 @@ export const HalfPage = styled.div`
     flex-wrap: nowrap;
 `;
 
-export const ButtonFilled = styled.div`
+export const ButtonFilled = styled.button`
     height: 6vh;
     width: 12vw;
     font-family: 'Roboto Slab';
@@ -193,5 +193,5 @@ export const ButtonFilled = styled.div`
     background: #383838;
     border-radius: 10px;
     color: #FFFEFB;
-    text-align: center;
+    align-items: center;
 `;
