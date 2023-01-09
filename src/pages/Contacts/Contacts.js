@@ -1,6 +1,7 @@
 import MainLayout from "../../components/Main Layout/Main Layout";
 import { MainPage, Title, SubTitle, LinkContainter, LinkText, LinkContainerB} from "./Styles";
 import Vector from "../../images/Vector.svg";
+import Footer from "../../components/Dark Footer/Footer";
 
 export default function Catch() {
 
@@ -30,6 +31,7 @@ export default function Catch() {
                         <a href="/"><img src={Vector}/></a>
                     </LinkContainerB>
             </MainPage>
+            <Footer/>
         </MainLayout>
     );
 };
