@@ -82,7 +82,7 @@ export const ProjectRight = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-wrap: wrap;
 `;
 
@@ -156,15 +156,25 @@ export const SubIdeaText = styled.p`
 `;
 
 export const ImageContainer = styled.div`
-    background: $ComputerScreen;
-    height: 30vh;
-    width: 30vw;
+    position: absolute;
+    margin-right: 20vw;
+    margin-top: 20vh;
+`;
+
+export const BackgroundContainer = styled.div`
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    margin-right: 15vw;
+    margin-top: 15vh;
+
+    background-color: beige;
 `;
 
 export const JoinPage = styled.div`
     height: 90vh;
     width: 100vw;
-    background-color: #F9F7F1;
+    background-color: beige;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -180,6 +190,11 @@ export const HalfPage = styled.div`
     justify-content: Center;
     align-items: baseline;
     flex-wrap: nowrap;
+`;
+
+export const ImageContainer2 = styled.div`
+    position: absolute;
+    margin-left: 5vw;
 `;
 
 export const ButtonFilled = styled.button`

@@ -3,12 +3,13 @@ import { AboutPage, Title, MajorText, MinorText, LineContainer, ProjectPage,
     ProjectLeft, ProjectRight, SectionTitle, SectionSubTitle, SectionContent,
     HalfSubSection, SubIdea, SubIdeaTitle, SubIdeaText, ImageContainer, JoinPage,
     HalfPage, ButtonFilled, SectionPage, SectionTitle2, SectionContent2, ButtonClear,
-    ButtonContainer} from "./Styles";
+    ButtonContainer, BackgroundContainer, ImageContainer2} from "./Styles";
 import Line from "../../images/Line.svg";
 import LightBulb from "../../images/LightBulb.svg";
 import Bubble from "../../images/bubble.svg";
 import Tag from "../../images/tag.svg";
 import Star from "../../images/star.svg";
+import JoinPhotos from "../../images/JoinPhotos.svg"
 import ComputerScreen from "../../images/ComputerScreen.svg"
 import Footer from "../../components/Dark Footer/Footer";
 
@@ -60,14 +61,17 @@ export default function About() {
                     </HalfSubSection>
                 </ProjectLeft>
                 <ProjectRight>
+                    <BackgroundContainer/>
                     <ImageContainer>
                         <img src={ComputerScreen} alt="computer screen"/>
-                    </ImageContainer>
+                    </ImageContainer>        
                 </ProjectRight>
             </ProjectPage>
             <JoinPage>
                 <HalfPage>
-
+                    <ImageContainer2>
+                        <img src={JoinPhotos} alt="join photos"/>
+                    </ImageContainer2>
                 </HalfPage>
                 <HalfPage>
                     <SectionTitle>How to Join the Club</SectionTitle>
