@@ -15,6 +15,7 @@ import Footer from "../../components/Dark Footer/Footer";
 
 export default function About() {
     //project page requires major overhaul/rework
+    //join page also requires overhaul (implement a shrink/cover of images as page size shrinks)
     return (
         <MainLayout>
             <AboutPage>
